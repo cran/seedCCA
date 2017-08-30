@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "abline", "axis", "mtext", "par", "plot", "text")
+importFrom("stats", "cov")
+importFrom("CCA","cc")
+importFrom("corpcor", "pseudoinverse")
+export(seedCCA)
+export(selectu)
+export(covplot)
