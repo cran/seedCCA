@@ -1,23 +1,22 @@
 \name{seeding}
 \alias{seeding}
-\title{Iterative projection of a seed matrix onto cov(X)}
+\title{increments of iterative projections}
 \description{
-Returns iterative projection of a seed matrix on cov(X) upto k times.}
+Returns increments (nFu) of iterative projections of a seed matrix onto a covariance matrix \code{u} times.)}
 
 \usage{
-seeding(seed, cov.x, n, u=5)
+seeding(seed, covx, n,  u=10)
 }
 
 \arguments{
   \item{seed}{numeric matrix (p * d), a seed matrix}
-  \item{cov.x}{numeric matrix (p * p), cov(X)}
-  \item{n}{sample sizes}
-  \item{u}{maximum number of projection}
+  \item{covx}{numeric matrix (p * p), covariance matrix of X}
+  \item{n}{numeric, sample sizes}
+  \item{u}{numeric, maximum number of projections}
 }
 
 \value{
-  \item{F.u_x}{n*Fu values of X}
-  \item{F.u_y}{n*Fu values of Y}
+  \item{nFu}{n*Fu values}
 }
 
 \examples{
@@ -26,7 +25,7 @@ myseq<-seq(141,651,by=2)
 X<-as.matrix(cookie[-c(23,61),myseq])
 Y<-as.matrix(cookie[-c(23,61),701:704])
 seed <- cov(X,Y)
-cov.x <- cov(X)
-seeding(seed, cov.x, n=dim(X)[1], u=4)
+covx <- cov(X)
+seeding(seed, covx, n=dim(X)[1], u=4)
 }
 

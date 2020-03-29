@@ -1,10 +1,9 @@
 \name{Pm}
 \alias{Pm}
-\title{Projection of a seed matrix on to the column subspace of M with respect to
-Sx inner-product}
+\title{Projection of a seed matrix on to the column subspace of M with respect to \code{Sx} inner-product}
 
 \description{
-The function reuturns a projection of a seed matrix on to the column subspace of M with respect to Sx inner-product.}
+The function reuturns a projection of a seed matrix on to the column subspace of M with respect to \code{Sx} inner-product.}
 
 \usage{
 Pm(M, Sx, seed)

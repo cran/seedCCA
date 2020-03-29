@@ -3,18 +3,18 @@
 \title{finalized CCA in seeded CCA}
 \description{Returns the results of the finalized step in seeded CCA.}
 
-\usage{finalCCA(first.ini.set, second.ini.set)}
+\usage{finalCCA(X, Y)}
 
 \arguments{
-\item{first.ini.set}{numeric matrix (n * d), the initially-CCAed first set of variables}
-\item{second.ini.set}{numeric matrix (n * d), the initially-CCAed second set of variables}
+\item{X}{numeric matrix (n * d), the initially-CCAed first set of variables}
+\item{Y}{numeric matrix (n * d), the initially-CCAed second set of variables}
 }
 \value{
-\item{Xphi}{the finalized canonical variates of the first set of variables}
-\item{Yphi}{the finalized canonical variates of the second set of variables}
+\item{cor}{canonical correlations in finalized step}
 \item{xcoef}{the estimated canonical coefficient matrix of the initially-CCAed first set of variables}
 \item{ycoef}{the estimated canonical coefficient matrix of the initially-CCAed second set of variables}
-\item{eigen}{the finalized canonical correlations}
+\item{Xscores}{the finalized canonical variates of the first set of variables}
+\item{Yscores}{the finalized canonical variates of the second set of variables}
 }
 
 \examples{

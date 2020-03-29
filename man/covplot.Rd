@@ -1,13 +1,13 @@
 \name{covplot}
 \alias{covplot}
-\title{scree-ploting cov(first.set, second.set)}
+\title{scree-ploting cov(X, Y)}
 \description{Returns a scree-plot of the eigenvalues of cov(first.set, second.set) to select its first d largest eigenvectors.}
 
-\usage{covplot(first.set, second.set, mind=NULL)}
+\usage{covplot(X, Y, mind=NULL)}
 
 \arguments{
-\item{first.set}{numeric matrix (n * p), the first set of variables}
-\item{second.set}{numeric matrix (n * r), the second set of variables}
+\item{X}{numeric matrix (n * p), X}
+\item{Y}{numeric matrix (n * r), Y}
 \item{mind}{numeric, the number of the eigenvalues to show their cumulative percentages. The default is NULL, and then it is equal to min(p,r)}
 }
 

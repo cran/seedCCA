@@ -1,20 +1,19 @@
 \name{iniCCA}
 \alias{iniCCA}
 \title{Initialized CCA in seeded CCA}
-\description{Returns the canonical coefficient matrices from the initialized step in seeded CCA. The initialzied CCA is done only for the first set in its first argument. The "num.d" must be bigger than or equal to the dimension of the second set.}
+\description{Returns the canonical coefficient matrices from the initialized step in seeded CCA. The initialzied CCA is done only for the first set in its first argument. The \code{num.d} must be less than or equal to the dimension of the second set.}
 
-\usage{iniCCA(first.set, second.set, u, num.d)}
+\usage{iniCCA(X, Y, u, num.d)}
 
 \arguments{
-\item{first.set}{numeric matrix (n * p), the first set of variables: this set of variables alone is reduced.}
-\item{second.set}{numeric matrix (n * r), the second set of variables}
+\item{X}{numeric matrix (n * p), the first set of variables: this set of variables alone is reduced.}
+\item{Y}{numeric matrix (n * r), the second set of variables}
 \item{u}{numeric, the terminiating index of the projection}
-\item{num.d}{numeric, the first "num.d" eigenvectors of cov(X,Y) to replace cov(X,Y), if min(p,r) relatively bigger than n. The "num.d" must be less than or equal to min(p,r).}
+\item{num.d}{numeric, the first "num.d" eigenvectors of cov(X,Y) to replace cov(X,Y), if min(p,r) relatively bigger than n. The \code{num.d} must be less than or equal to min(p,r).}
 }
 \value{
-\item{B}{the initialized CCAed X projected up to u}
+\item{B}{the initialized CCAed coefficient matrix projected by the value of \code{u}}
 }
-
 \examples{
 ########  data(cookie) ########
 data(cookie)
