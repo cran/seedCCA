@@ -52,19 +52,19 @@ The order of the values depending on type is follows.:
 }
 
 \value{
-\item{}{\code{type="cca"}: standard CCA (max(p,r)<n, min(p,r)>1) / "finalCCA" subclass}
+\item{type="cca"}{Values with selecting \code{type="cca"}: standard CCA (max(p,r)<n, min(p,r)>1) / "finalCCA" subclass}
 \item{cor}{canonical correlations}
 \item{xcoef}{the estimated canonical coefficients for X}
 \item{ycoef}{the estimated canonical coefficients for Y}
 \item{Xscores}{the estimated canonical variates for X}
 \item{Yscores}{the estimated canonical variates for Y}
 
-\item{}{\code{type="cca"}: ordinary least squares (max(p,r)<n, min(p,r)=1) / "seedols" subclass}
+\item{type="cca"}{Values with selecting \code{type="cca"}: ordinary least squares (max(p,r)<n, min(p,r)=1) / "seedols" subclass}
 \item{coef}{the estimated ordinary least squares coefficients}
 \item{X}{X, the first set}
 \item{Y}{Y, the second set}
 
-\item{}{\code{type="seed1"}: seeded CCA with case1 (max(p,r)>n and p>r) / "finalCCA" subclass}
+\item{type="seed1"}{Values with selecting \code{type="seed1"}: seeded CCA with case1 (max(p,r)>n and p>r) / "finalCCA" subclass}
 \item{cor}{canonical correlations}
 \item{xcoef}{the estimated canonical coefficients for X}
 \item{ycoef}{the estimated canonical coefficients for Y}
@@ -76,7 +76,7 @@ The order of the values depending on type is follows.:
 \item{Yscores}{the estimated canonical variates for Y}
 
 
-\item{}{\code{type="seed1"}: seeded CCA with case1 (max(p,r)>n and p<=r) / "finalCCA" subclass)}
+\item{type="seed1"}{Values with selecting \code{type="seed1"}: seeded CCA with case1 (max(p,r)>n and p<=r) / "finalCCA" subclass)}
 \item{cor}{canonical correlations}
 \item{xcoef}{the estimated canonical coefficients for X}
 \item{ycoef}{the estimated canonical coefficients for Y}
@@ -88,7 +88,7 @@ The order of the values depending on type is follows.:
 \item{Yscores}{the estimated canonical variates for Y}
 
 
-\item{}{\code{type="seed2"}: seeded CCA with case2 (max(p,r)>n) / "finalCCA" subclass}
+\item{type="seed2"}{Values with selecting \code{type="seed2"}: seeded CCA with case2 (max(p,r)>n) / "finalCCA" subclass}
 \item{cor}{canonical correlations}
 \item{xcoef}{the estimated canonical coefficients for X}
 \item{ycoef}{the estimated canonical coefficients for Y}
@@ -103,7 +103,7 @@ The order of the values depending on type is follows.:
 \item{Yscores}{the estimated canonical variates for Y}
 
 
-\item{}{\code{type="pls"}: partial least squares (p>n and r<n) / "seedpls" subclass}
+\item{type="pls"}{Values with selecting \code{type="pls"}:: partial least squares (p>n and r<n) / "seedpls" subclass}
 \item{coef}{the estimated coefficients for each iterative projection upto u}
 \item{u}{the maximum number of projections}
 \item{X}{predictors}

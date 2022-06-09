@@ -30,13 +30,13 @@ The order of the values depending on type is follows:
 }
 
 \value{
-\item{}{\code{type="seed1"}}
+\item{type="seed1"}{Values with selecting \code{type="seed1"}:}
   \item{nFu}{incrments (n*Fu) of the iterative projection for initally reduction one set of variable.}
   \item{proper.u}{proper value of the number of projections for X}
   \item{type}{types of seeded CCA}
   \item{eps}{a value for terminating the projection.  The default value is equal to 0.01.}
 
-\item{}{\code{type="seed2"}}
+\item{type="seed2"}{Values with selecting \code{type="seed2"}:}
   \item{nFu.x}{incrments (n*Fu) of the iterative projection for initially reducing X.}
   \item{nFu.y}{incrments (n*Fu) of the iterative projection for initially reducing Y.}
   \item{proper.ux}{proper value of the number of projections for X}

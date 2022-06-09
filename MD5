@@ -1,4 +1,4 @@
-422fb311079352b21d8378dc8e3c6d7b *DESCRIPTION
+c69f5d1d411183db90e4847197471c0e *DESCRIPTION
 531288340242553778e7bc3dbbefa25e *NAMESPACE
 caffcf9c4d5ff0b0ad82e0d4a45f860f *R/seedCCA.R
 b662d9515bff9ec812aac366eacb51a2 *data/cookie.rda
@@ -13,9 +13,9 @@ bb3abbf979a185014fa1cb8422fd91a9 *man/iniCCA.Rd
 5b74b3e1e4b49a8bd98c357a8b2c3a67 *man/nutrimouse.Rd
 8b9a6873899b4fc178c9f18ed83b521c *man/plot.seedCCA.Rd
 68c922dd2d33a07d9cdbd0a530783bd9 *man/print.seedCCA.Rd
-8b64f420e9c8a153dda21047bcc645e6 *man/seedCCA.Rd
+3e5879c93e220413f49a1e162bfdc292 *man/seedCCA.Rd
 c25ddbd5ed4796bcafef0e9a7ecc3220 *man/seeding.Rd
 660d3ea92372058fd548444f3923ea45 *man/seeding.auto.stop.Rd
 5e860ee9422037129bcfc61feef539a9 *man/seedols.Rd
 8fd114c65f6e568d942fd82a5c913d38 *man/seedpls.Rd
-ccde8aeafc02477985d9c01ed577aeb7 *man/selectu.Rd
+0165cd323f317087dbf4cb7921e72c00 *man/selectu.Rd
